@@ -1,0 +1,48 @@
+<!--This function changes the page to display the user's name -->
+<html>
+<head>
+<title>
+Session ID
+</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script>
+function setCookie() 
+{
+	document.cookie = "sessionID=314159";
+}
+function changeText() 
+{
+	inputVar = document.getElementById("uEntry").value;
+	if(inputVar=="" || inputVar== null ) 
+	{
+		alert("Hi, Please Enter Your Name");
+		return false;
+	}
+	else
+	{
+	document.write("<h1>Hello " + inputVar + "!</h1><p id=\"enjoyPara2\">Please enjoy the Web site!</p>");
+	document.write("<p>Your Session ID =" + document.cookie + " and its an example of injection script</p>");
+	}
+	alert(document.cookie);
+}
+function stopRKey(evt) 
+{
+	var evt = (evt) ? evt : ((event) ? event : null);
+	var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+	if ((evt.keyCode == 13) && (node.type=="text")) 
+		{
+			return false;
+		}
+}
+document.onkeypress = stopRKey;
+</script>
+</head>
+<body onload="setCookie()">
+<div id="main">
+<h1 id="title">Hello Anonymous!</h1>
+<p id="enjoyPara">Please enjoy the Web site!</p>
+First name: <input type="text" id="uEntry"><br>
+<button id="changeButton" onclick="changeText()">Update  Name</button>
+</div>
+</body>
+</html>

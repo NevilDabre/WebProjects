@@ -1,0 +1,80 @@
+body
+{
+	background-image: url("../img/BG.jpg");
+	background-repeat: no;
+}
+#home_icon
+{
+float : left;
+width:150px;
+height:150px;
+border: 5px solid yellow;
+
+}
+
+#home_button
+{
+width:350px;
+height:150px;
+}
+#home_titletext
+{
+color:red;
+margin:50;
+text-align:center;
+font-size:100px;
+}
+#td_menu
+{
+	background-image: url('img/button.png');
+	width:250px;
+   	height:180px;
+   	background-repeat:no-repeat;
+	background-size:250px 180px;
+	text-align : center;
+}
+ table.home_menu
+ {
+margin-left:auto; 
+margin-right:auto;
+  }
+
+p
+{
+ align:center;
+ margin:center;
+ color:#FF6600;
+ font-size:30px;
+ text-shadow: 2px 2px #FFFFFF;
+}
+h2
+{
+text-align: center;
+color:#FF6600;
+}
+
+#home_service
+{
+color:Purple;
+text-align: center;
+}
+
+
+#tr_desc
+{
+text-align : center; align:center; 
+}
+
+#center_menu
+{
+width:250px;
+height:250px;
+border: 3px solid black;
+
+}
+
+li
+{
+font-size:30px;
+color:#FF6677;
+}

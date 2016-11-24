@@ -1,0 +1,20 @@
+As per the requirement I have added following forms items
+2 Textboxes - First Name & Last Name
+3 Radio buttons - for Gender
+6 Checkboxes - types of sports
+4 select options - Pickup Location.
+1 submit button and 1 reset button
+
+CSS stylesheet
+title class = changing style of 
+		1.<h1>
+		2.<li>
+		3.<p>
+
+descri class = changing style of two <P> Paragraph 
+
+and other css id used for changing other element stylesheet
+
+Image reference :
+		ICON = robertoalborghetti.wordpress.com
+		Social Images = Facebook.com | Plus.google.com | Twitter.com  		 

@@ -1,0 +1,76 @@
+body
+{
+	background-color: orange;
+}
+#home_icon
+{
+float : right;
+width:250px;
+height:250px;
+border: 10px solid green;
+
+}
+
+#home_button
+{
+width:250px;
+height:350px;
+}
+#home_titletext
+{
+color:blue;
+margin:70;
+text-align:left;
+font-size:100px;
+}
+#td_menu
+{
+	background- color: red;
+	width:150px;
+   	height:100px;
+}
+ table.home_menu
+ {
+margin-left:auto; 
+margin-right:auto;
+  }
+
+p
+{
+ align:center;
+ margin:center;
+ color:#FF00FF;
+ font-size:30px;
+ text-shadow: 2px 2px #00FFFF;
+}
+h2
+{
+text-align: center;
+color:#0066FF;
+}
+
+#home_service
+{
+color:red;
+text-align: center;
+}
+
+
+#tr_desc
+{
+text-align : center; align:center; 
+}
+
+#center_menu
+{
+width:250px;
+height:250px;
+border: 3px solid black;
+
+}
+
+li
+{
+font-size:30px;
+color:#FF6677;
+}

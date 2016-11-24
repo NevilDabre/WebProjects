@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Javascript Assignment 1</title>
+<script type="text/javascript" src="Assign2_part1.js"></script>
+<style>
+body 
+{
+    background-color:#FF3399;
+}
+
+h1 
+{
+    color: White;
+    text-align: center;
+}
+
+#paraOriginal, #paraDate  
+{
+color:blue;
+border: 2px solid orange;
+padding: 20px; 
+text-align: center; 
+font-size : 30px; 
+text-align: center;
+}
+div
+{
+text-align:center;
+}
+
+
+</style>
+</head>
+<body>
+<h1>JavaScript Test Page</h1>
+<p id="paraOriginal" onmouseover=newParaStyle("paraOriginal") onmouseout=oriParaStyle("paraOriginal")>Welcome to Javascript Page</p>
+<br>
+<div id="buttons">
+<button type="button" onclick=changePara1()>
+Change Paragraph Content!
+</button>
+<button type="button" onclick=fromModified()>
+Display Original Text!
+</button>
+</div>
+<p id="paraDate" onmouseover=newParaStyle("paraDate") onmouseout=oriParaStyle("paraDate")>Show Date and Time Here!</p>
+<br>
+<div id="buttons">
+<button type="button" onclick=insertCurrentDate()>
+Show Date & Time!
+</button>
+</div>
+<p>
+<strong>
+Note:
+</strong> 
+<ul>
+<li>Javascript Functions are stored in an external file called "Assign2_part1.js".</li>
+<li>Roll your mouse over Paragraphs to change the style.</li>
+<li>I have used onmouseover and onmouseout events for changing styles of both paragraph</li>
+</p>
+</body>
+</html>

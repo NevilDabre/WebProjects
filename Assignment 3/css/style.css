@@ -1,0 +1,57 @@
+body
+{
+	background-color:#A8CD1B;
+}
+.descri
+{
+	color:purple;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:20px;
+}
+.title
+{
+	color:yellow;
+	font-family:Tahoma;
+	text-shadow: 2px 3px 4px #FF00FF;
+	text-align:center;
+	margin: 10px;
+	list-style-position: inside;
+}
+
+.regForm
+{
+	display: block;
+	border:4px red dotted;
+	border-radius:30px;	
+	text-align:center; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+h3
+{
+	color:#33ffec;
+	font-family:Tahoma;
+	font-size:25px;
+	text-align:center;
+}
+td
+{
+	text-align:left;
+	font-size:20px;
+	color:white;
+	margin:10;
+}
+#button
+{
+    background-color: brown;
+    color: white;
+    padding: 10px 25px;
+    margin: 5px 3px;
+    cursor: pointer;
+}
+.center 
+{
+    margin: auto;
+    width: 50%;
+}

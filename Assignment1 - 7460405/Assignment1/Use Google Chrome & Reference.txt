@@ -1,0 +1,75 @@
+Hi, Please run my website in Google Chrome!
+
+Home page HTML
+I have used following tags
+1.<P>
+2.<IMG>
+3.<DIV>
+4.<TABLE>
+5.<UL>
+6.Icon - www.istockphoto.com
+7.Hotel image 1, 2, 3 , 4 - http://www.dolce.com/
+8.Free Buttons - free-buttons.org
+
+
+Home Page CSS http://www.w3schools.com/
+1.Body background-image
+2.border style
+3.text-align
+4.table data background image
+5.table margin
+6.text-shadow
+7.color
+8.font-size
+
+
+Tour Page CSS http://www.w3schools.com/
+1.border style - dashed, dotted & double
+2.background-color - black
+3.text-align
+4.img - height width
+
+
+Tour Page HTML
+1.Image map - Image Cordiante Help http://www.image-maps.com/
+2.Table
+3.Textarea
+4.most vistied places reference www.Google.com
+5.break
+6.flag image - www.divanintl.com
+7.Famous destination images - https://www.tripadvisor.ca
+
+Hotels page HTML 
+1.<TABLE>
+2.<OL>
+3.<IMG>
+4.<A>
+
+
+Hotels Page CSS http://www.w3schools.com/
+1.border
+2.letter-spacing
+3.background-color
+4.color
+5.margin
+6.image border-radius
+7.a link & visited  - text-decoration
+8.body - background-repeat
+
+Contact Us HTML
+1.<TABLE>
+2.<IMG>
+3.<FIELDSET>
+4.<LEGEND>
+5.<FORM>
+6.<Input> radio, text, submit button
+7.Map Image - google maps
+8.social media icon - iconion.com
+
+Contact US CSS http://www.w3schools.com/
+1.color
+2.margin
+3.font-size
+4.text-align
+5.body - background-color
+
